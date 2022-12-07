@@ -1,0 +1,35 @@
+body{
+    background: #a1d0ff;
+}
+.container{
+    width: 300px;
+    margin:auto;
+}
+.tilte,
+.contents{
+    background: white;
+    box-shadow: 0 4px 10px 5px rgba(0,0,0,0.15);
+}
+.tilte{
+    text-align: center;
+}
+.contents{
+    padding: 10px;
+}
+.input-div {
+    display: flex;
+}
+#inputBox{
+    flex-grow: 1;
+    height: 30px;
+}
+li{
+    list-style: none;
+    margin: 20px 0px;
+}
+#deletButton{
+    margin: 0px 5px;
+}
+.checked {
+    text-decoration: line-through;
+}

@@ -4,8 +4,7 @@ var save = $("#save");
 var list = $('#list');
 
 function getBooks(){
-    $.getJSON('/books')
-    .done(function(books){
+    $.getJSON('/books').done(function(books){
         list.empty();
         for (var book of books){
             var li = $("<li />");
